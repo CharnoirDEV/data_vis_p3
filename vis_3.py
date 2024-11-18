@@ -12,7 +12,7 @@ from collections import Counter
 import openpyxl 
 
 
-model_path = "/Users/kiangkraikaewbuadee/vis_p3/model.joblib"
+model_path = "/model.joblib" #please update your path befoere running
 model = joblib.load(model_path)
 
 
